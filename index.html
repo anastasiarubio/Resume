@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Web Developer</p>
+    </header>
+    <section>
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: johndoe@example.com</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Experienced web developer with a strong background in developing award-winning applications for a diverse clientele. Adept at contributing to a highly collaborative work environment, finding solutions, and determining customer satisfaction.</p>
+    </section>
+    <section>
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Senior Web Developer</h3>
+            <p>XYZ Company, 2019-Present</p>
+            <ul>
+                <li>Developed and maintained web applications for the company.</li>
+                <li>Led a team of developers to create a new e-commerce platform.</li>
+                <li>Optimized website performance, reducing load time by 40%.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Web Developer</h3>
+            <p>ABC Company, 2015-2019</p>
+            <ul>
+                <li>Worked on various projects, including websites and mobile applications.</li>
+                <li>Collaborated with designers and backend developers to create seamless user experiences.</li>
+                <li>Implemented responsive design techniques to ensure the website works across all devices.</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <p>Bachelor of Science in Computer Science, University of Example, 2011-2015</p>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Angular</li>
+            <li>Node.js, Express</li>
+            <li>SQL, NoSQL</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+    <script>
+      fetch('https://<your-function-app-name>.azurewebsites.net/api/<your-function-name>')
+        .then(response => response.text())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
